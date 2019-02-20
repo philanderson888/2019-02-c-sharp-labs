@@ -64,6 +64,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_13_Polymorphism", "lab_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_113_arraylist", "lab_113_arraylist\lab_113_arraylist.csproj", "{3BD3BCF6-76CE-4796-B14F-F98D6EA51DFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_14_OOP", "lab_14_OOP\lab_14_OOP.csproj", "{2D797160-A961-4D61-BCDF-63378DF5F447}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +184,10 @@ Global
 		{3BD3BCF6-76CE-4796-B14F-F98D6EA51DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BD3BCF6-76CE-4796-B14F-F98D6EA51DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BD3BCF6-76CE-4796-B14F-F98D6EA51DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D797160-A961-4D61-BCDF-63378DF5F447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D797160-A961-4D61-BCDF-63378DF5F447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D797160-A961-4D61-BCDF-63378DF5F447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D797160-A961-4D61-BCDF-63378DF5F447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

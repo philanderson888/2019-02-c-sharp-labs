@@ -11,6 +11,7 @@ namespace lab_113_arraylist
     {
         static void Main(string[] args)
         {
+
         }
     }
 
