@@ -34,7 +34,7 @@ namespace Labs_Test
         public void Lab113ArrayListTest()
         {
             // arrange
-            var expected = -10;
+            var expected = 48000;
             var instanceLab113 = new arraylist();
             // act
             var actual = instanceLab113.arraylistMethod(10, 20, 30, 40);
