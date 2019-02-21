@@ -47,3 +47,7 @@ Labs done during C# course work
 109 New File With Content
 
 112 Collections
+
+113 : 4 items : in array, double to queue, double to stack, square to dictionary, to arraylist, return the sum but put everything in a GUI ie the 4 numbers in 4 text boxes.  Push to github.  Lab 113 GUI ArrayList.  Do an ArrayList lab first !!!
+
+

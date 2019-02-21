@@ -18,8 +18,23 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="10*" />
         </Grid.RowDefinitions>
+        <TextBox x:Name="TextBoxName" Grid.Row="1" Grid.Column="2" />
         <ListBox x:Name="ListBox01" Grid.Column="0" Grid.Row="3" Background="#6ee58a"/>
-        <ListBox x:Name="ListBox02" Grid.Column="1" Grid.Row="3" Background="#6ff58a"/>
-        <ListBox x:Name="ListBox03" Grid.Column="2" Grid.Row="3" Background="#5cc58a"/>
+        <ListBox x:Name="ListBox02" Grid.Column="1" Grid.Row="3" Background="#6ff58a">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat="ID {0} - {1} from {2}">
+                                <Binding Path="CustomerID" />
+                                <Binding Path="ContactName" />
+                                <Binding Path="City" />
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ListBox x:Name="ListBox03" Grid.Column="2" Grid.Row="3" Background="#5cc58a" SelectionChanged="ListBox03_SelectionChanged"/>
     </Grid>
 </Window>

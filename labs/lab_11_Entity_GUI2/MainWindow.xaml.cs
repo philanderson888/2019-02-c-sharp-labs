@@ -23,6 +23,7 @@ namespace lab_11_Entity_GUI2
     {
         List<Customer> customers = new List<Customer>();
         List<string> customerList = new List<string>();
+        Customer customer;
 
         public MainWindow()
         {
@@ -44,6 +45,25 @@ namespace lab_11_Entity_GUI2
 
                 ListBox01.ItemsSource = customerList;
             }
+
+            using(var db = new NorthwindEntities())
+            {
+                customers = db.Customers.ToList<Customer>();
+                ListBox02.ItemsSource = customers;
+            }
+
+            using (var db = new NorthwindEntities())
+            {
+                customers = db.Customers.ToList<Customer>();
+                ListBox03.ItemsSource = customers;
+                ListBox03.DisplayMemberPath = "ContactName";
+            }
+        }
+
+        private void ListBox03_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            customer = (Customer)ListBox03.SelectedItem;
+            TextBoxName.Text = customer.ContactName;
         }
     }
 }
