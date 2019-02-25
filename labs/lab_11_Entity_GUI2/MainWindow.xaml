@@ -36,5 +36,7 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <ListBox x:Name="ListBox03" Grid.Column="2" Grid.Row="3" Background="#5cc58a" SelectionChanged="ListBox03_SelectionChanged"/>
+        <ComboBox x:Name="ComboBoxStaticCity" Grid.Column="1" Grid.Row="2" Background="#70ea97" SelectionChanged="ComboBoxStaticCity_SelectionChanged" />
+        <ComboBox x:Name="ComboBoxBoundToCity" Grid.Column="2" Grid.Row="2" Background="#70ea97" SelectionChanged="ComboBoxBoundToCity_SelectionChanged" />
     </Grid>
 </Window>

@@ -50,4 +50,30 @@ Labs done during C# course work
 
 113 : 4 items : in array, double to queue, double to stack, square to dictionary, to arraylist, return the sum but put everything in a GUI ie the 4 numbers in 4 text boxes.  Push to github.  Lab 113 GUI ArrayList.  Do an ArrayList lab first !!!
 
+114 : Entity OOP reading Northwind
 
+115 : 
+    /// Read customers and (cast) to ActiveCustomers and 
+    /// set IsActive to true for all customers
+    /// 
+    /// Create  2 list boxes and radio button to enable/disable
+    /// our ActiveCustomer
+    /// 
+    /// Click on Customer to select and display all details on
+    /// screen   (TextBlock, StackPanel, ListBox2)
+    /// 
+    /// When you click on Enable/Disable Toggle button the IsActive 
+    /// changes (toggles) state 
+    /// 
+    /// First listbox = only for ACTIVE CUSTOMERS
+    ///         state becomes inactive ==> remove from first listbox
+    ///         
+    /// Second listbox = only for INACTIVE CUSTOMERS
+    ///         inactive state : remove from first but add to 
+    ///         second listbox
+    /// 
+    /// Reverse the process ie click on INACTIVE CUSTOMER (second
+    ///         listbox) you can then toggle the state back to 
+    ///         enabled (use the radio/toggle button).
+    ///         Removed from INACTIVE and add back to ACTIVE list
+    /// 
