@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab_105_game_name_and_score_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_105_game_name_and_score_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000" FontSize="30">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://sec.ch9.ms/ecn/c4fcontent/migration/1178193/clip_image00312.jpg" 
+                        Stretch="UniformToFill" />
+        </Grid.Background>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="194,50,0,0" VerticalAlignment="Top" Width="123"/>
+        <Label  Content="Level" HorizontalAlignment="Left" Margin="194,97,0,0" VerticalAlignment="Top"/>
+        <Label  Content="Score" HorizontalAlignment="Left" Margin="194,147,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TxtBoxName" Height="39" Margin="302,55,529.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="TxtBoxName_TextChanged"/>
+        <TextBox x:Name="TxtBoxLevel" Height="37" Margin="300,105,528.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextChanged="TxtBoxLevel_TextChanged"/>
+        <TextBox x:Name="TxtBoxScore" HorizontalAlignment="Left" Height="35" Margin="300,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165" TextChanged="TxtBoxScore_TextChanged"/>
+    </Grid>
+</Window>
