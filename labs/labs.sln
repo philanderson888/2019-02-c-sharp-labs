@@ -104,11 +104,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_25_checked_unchecked", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_118_array_of_tests", "lab_118_array_of_tests\lab_118_array_of_tests.csproj", "{F0D3F1EC-DD2A-4686-933C-09C07F2DF641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_118_task_array_tests", "lab_118_task_array_tests\lab_118_task_array_tests.csproj", "{17013DAA-4A23-48CB-ABA3-59B9E37FC87E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_118_task_array_tests", "lab_118_task_array_tests\lab_118_task_array_tests.csproj", "{17013DAA-4A23-48CB-ABA3-59B9E37FC87E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_26_DotNetCore_Northwind", "lab_26_DotNetCore_Northwind\lab_26_DotNetCore_Northwind.csproj", "{ED56F95E-172E-4770-A4AE-78E863FACB37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_26_DotNetCore_Northwind", "lab_26_DotNetCore_Northwind\lab_26_DotNetCore_Northwind.csproj", "{ED56F95E-172E-4770-A4AE-78E863FACB37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_27_Hello_World_Website", "lab_27_Hello_World_Website\lab_27_Hello_World_Website.csproj", "{C2638137-0AA2-4769-847B-6133223FC3A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_121_hash_set_to_excel", "lab_121_hash_set_to_excel\lab_121_hash_set_to_excel.csproj", "{A4283F8B-9A4E-4F57-A3CA-C372DED9F188}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_121_HashSet_Excel_Tests", "lab_121_HashSet_Excel_Tests\lab_121_HashSet_Excel_Tests.csproj", "{3F844B93-4DA7-47BF-BCCC-DE0479583ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_28_northwind_website", "lab_28_northwind_website\lab_28_northwind_website.csproj", "{F4708253-BDB6-49FB-87B8-708CBE5A0B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_29_ASP_DOT_NET_API", "lab_29_ASP_DOT_NET_API\lab_29_ASP_DOT_NET_API.csproj", "{EEC79C07-B98D-49FF-95A5-C952A31F3E48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_30_Northwind_to_XML", "lab_30_Northwind_to_XML\lab_30_Northwind_to_XML.csproj", "{02E85D87-58AC-403F-822F-EEF00F739A3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -320,6 +330,26 @@ Global
 		{C2638137-0AA2-4769-847B-6133223FC3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2638137-0AA2-4769-847B-6133223FC3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2638137-0AA2-4769-847B-6133223FC3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4283F8B-9A4E-4F57-A3CA-C372DED9F188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4283F8B-9A4E-4F57-A3CA-C372DED9F188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4283F8B-9A4E-4F57-A3CA-C372DED9F188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4283F8B-9A4E-4F57-A3CA-C372DED9F188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F844B93-4DA7-47BF-BCCC-DE0479583ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F844B93-4DA7-47BF-BCCC-DE0479583ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F844B93-4DA7-47BF-BCCC-DE0479583ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F844B93-4DA7-47BF-BCCC-DE0479583ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4708253-BDB6-49FB-87B8-708CBE5A0B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4708253-BDB6-49FB-87B8-708CBE5A0B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4708253-BDB6-49FB-87B8-708CBE5A0B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4708253-BDB6-49FB-87B8-708CBE5A0B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC79C07-B98D-49FF-95A5-C952A31F3E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC79C07-B98D-49FF-95A5-C952A31F3E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC79C07-B98D-49FF-95A5-C952A31F3E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC79C07-B98D-49FF-95A5-C952A31F3E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E85D87-58AC-403F-822F-EEF00F739A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E85D87-58AC-403F-822F-EEF00F739A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E85D87-58AC-403F-822F-EEF00F739A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E85D87-58AC-403F-822F-EEF00F739A3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
