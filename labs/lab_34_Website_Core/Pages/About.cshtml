@@ -1,0 +1,15 @@
+﻿@page
+@model AboutModel
+@{
+    // viewdata is dictionary of strings
+    ViewData["Title"] = "About";
+    ViewData["Test"] = "Testing";
+}
+<h2>@ViewData["Title"] - @ViewData["Test"]</h2>
+<h3>@Model.Message</h3>
+
+<p>@Model.Message2</p>
+
+<p>  hey - your lucky number is @Model.Num01</p>
+
+
