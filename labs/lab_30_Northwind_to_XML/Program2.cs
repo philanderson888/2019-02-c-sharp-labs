@@ -97,7 +97,9 @@ namespace lab_30_Northwind_to_XML
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string path = System.IO.Path.Combine(System.Environment.CurrentDirectory, "../../../../data/Northwind.db");
+            //string path = System.IO.Path.Combine(System.Environment.CurrentDirectory, "../../../../data/Northwind.db");
+            string path = System.IO.Path.Combine(System.Environment.CurrentDirectory, "../data/Northwind.db");
+            
             // use SQLite
             optionsBuilder.UseSqlite($"Filename={path}");
             // use SQL
