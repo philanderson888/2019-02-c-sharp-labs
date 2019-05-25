@@ -6,8 +6,6 @@ Labs done during C# course work
  
 01 Hello World
  
-    Done
- 
 02 OOP
 
 03 OOP Parent Child
